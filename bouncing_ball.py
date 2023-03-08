@@ -267,8 +267,8 @@ while counter < 20:
         print(frame_17)
     elif counter == 18:
         print(frame_18)
-    #elif counter == 19:
-        #print(frame_20)
+    elif counter == 19:
+        print(frame_19)
 
     counter = counter + 1
 
