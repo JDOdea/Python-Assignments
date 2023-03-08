@@ -1,4 +1,4 @@
-import time # We will cover "import" later in the course
+import time
 
 ############################################################
 # This section contains the "frames" for the animation
@@ -208,15 +208,12 @@ frame_19 = """
 # This section contains the code to create the animation 
 ############################################################
 
-#print("Follow the bouncing ball...")
 startFrameStr = input("What frame, from 1 to 20, should the ball start on?\n")
 startFrameInt = int(startFrameStr) - 1
 
-#counter = 0
 counter = startFrameInt
 while counter < 20:
     # This incantation will clear the terminal
-    # You should NOT try to understand it... I don't :)
     print("\033[H\033[J")
 
     print("Follow the bouncing ball...")
@@ -231,26 +228,18 @@ while counter < 20:
         print(frame_3)
     elif counter == 4:
         print(frame_4)
-    #Original
-    #elif 5 == counter:
     elif counter == 5:
         print(frame_5)
     elif counter == 6:
         print(frame_6)
     elif counter == 7:
         print(frame_7)
-    #Original
-    #elif counter == 9:
     elif counter == 8:
         print(frame_8)
     elif counter == 9:
         print(frame_9)
-    #Original
-    #elif counter == 9:
     elif counter == 10:
         print(frame_10)
-    #Original
-    #elif counter == 9:
     elif counter == 11:
         print(frame_11)
     elif counter == 12:
@@ -273,7 +262,6 @@ while counter < 20:
     counter = counter + 1
 
     # Make the program pause for "x" seconds
-    #x = 1.1
     x = 0.1
     time.sleep(x)
 
