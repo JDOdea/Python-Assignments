@@ -16,8 +16,10 @@ drink_menu = [
     "Macchiato",
     "Latte",
     "Cappuccino",
+    "Mocha Frap",
     "Americano",
-    "Hot Chocolate"
+    "Hot Chocolate",
+    "Water"
 ]
 print("Drink Menu\n-----------")
 for drink in drink_menu:
@@ -28,5 +30,5 @@ for drink in drink_menu:
 print("\nTaking Order\n------------")
 drink_order = input("What would you like?\n")
 while drink_order not in drink_menu:
-    drink_order = input("Please enter your order.\n")
+    drink_order = input("Please order from the menu:\n")
 print("\n" + customer_name + " has ordered a " + drink_order + "\n")
